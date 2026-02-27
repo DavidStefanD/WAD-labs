@@ -16,9 +16,19 @@
   "type": "module",
   "dependencies": {
     "express": "^5.2.1",
+    "express-handlebars": "^8.0.6",
+    "lowdb": "^7.0.1",
     "winston": "^3.19.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidStefanD/WAD-labs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidStefanD/WAD-labs/issues"
+  },
+  "homepage": "https://github.com/DavidStefanD/WAD-labs#readme"
 }
