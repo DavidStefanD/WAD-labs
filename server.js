@@ -4,11 +4,15 @@ import { create } from 'express-handlebars';
 import express from 'express';
 import logger from "./utils/logger.js";
 import routes from './routes.js'; 
+import bodyParser from "body-parser";
+
 
 const app = express();
 const port = 3000;
 
 app.use(express.static("public"));
+
+app.use(bodyParser.urlencoded({ extended: false, }));
 
 const handlebars = create({extname: '.hbs'});
 
